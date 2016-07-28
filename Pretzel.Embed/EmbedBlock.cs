@@ -97,7 +97,7 @@ namespace Pretzel.Embed
 
         protected void RenderTwitter(Context context, TextWriter result)
         {
-            result.WriteLine(String.Format("<blockquote class=\"twitter-tweet\" data-lang=\"ru\"><p lang=\"ru\" dir=\"ltr\">{0}</p><a href=\"{1}\"></a></blockquote>",
+            result.WriteLine(String.Format("<blockquote class=\"twitter-tweet\" data-lang=\"pl\"><p lang=\"pl\" dir=\"ltr\">{0}</p><a href=\"{1}\"></a></blockquote>",
                 GetRenderedContent(context), Source));
         }
 
