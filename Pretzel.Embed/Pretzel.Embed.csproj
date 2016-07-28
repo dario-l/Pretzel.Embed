@@ -31,7 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DotLiquid">
-      <HintPath>..\..\pretzel\libs\DotLiquid.dll</HintPath>
+      <HintPath>..\libs\DotLiquid.dll</HintPath>
+    </Reference>
+    <Reference Include="Pretzel.Logic">
+      <HintPath>..\libs\Pretzel.Logic.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -46,12 +49,6 @@
   <ItemGroup>
     <Compile Include="EmbedBlock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\pretzel\src\Pretzel.Logic\Pretzel.Logic.csproj">
-      <Project>{f2e6664d-75ac-4830-8a55-e572027df710}</Project>
-      <Name>Pretzel.Logic</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
